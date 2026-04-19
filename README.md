@@ -3,7 +3,7 @@
 AS2Biz is an Autonomous System (AS) business classification dataset. It classifies ASes by the business sectors of their operating organizations using web presence, primarily through the organization’s official website and sibling-AS-based augmentation, while supplementing missing cases with fallback methods such as Wikipedia-based classification and AI-based organization classification derived directly from web search.
 
 <!-- Replace with final Zenodo badge and concept DOI once released. -->
-[![DOI](ZENODO_BADGE_URL_PLACEHOLDER)](ZENODO_CONCEPT_DOI_URL_PLACEHOLDER)
+[![DOI](https://zenodo.org/badge/563047649.svg)](https://doi.org/10.5281/zenodo.19646990)
 
 Please open an issue to report any inaccuracies in the dataset (include ASN, month, and evidence)!
 
@@ -209,20 +209,21 @@ taxonomy = [
 ## Citation
 
 If you use this dataset, please cite the Zenodo **concept DOI** (all versions):
-
-<!-- Replace with final Zenodo concept DOI -->
-ZENODO_CONCEPT_DOI_PLACEHOLDER
+https://doi.org/10.5281/zenodo.19646990
 
 ```bibtex
-@software{AS2Biz_concept,
-  author       = {AUTHOR_LIST_PLACEHOLDER},
-  title        = {AS2Biz Dataset},
-  month        = MONTH_PLACEHOLDER,
-  year         = YEAR_PLACEHOLDER,
+@software{chen_as2biz_concept,
+  author       = {Chen, Zhiyi and
+                  Bischof, Zachary and
+                  Testart, Cecilia and
+                  Dainotti, Alberto},
+  title        = {AS to Business Type Mapping (AS2Biz)},
+  month        = apr,
+  year         = 2026,
   publisher    = {Zenodo},
-  doi          = {ZENODO_CONCEPT_DOI_PLACEHOLDER},
-  url          = {ZENODO_CONCEPT_URL_PLACEHOLDER},
-  note         = {Concept DOI (all versions). For a specific snapshot/release, please cite the corresponding Zenodo version DOI.},
+  version      = {2026-03},
+  doi          = {10.5281/zenodo.19646990},
+  url          = {https://doi.org/10.5281/zenodo.19646990},
 }
 ```
 
