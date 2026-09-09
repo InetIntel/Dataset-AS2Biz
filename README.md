@@ -54,7 +54,20 @@ The JSON structure is:
 
 - `snapshot_month`: snapshot month in `YYYY-MM` format, for example `2025-09`
 - `web_classification_llm`: the main LLM used to classify scraped website content into business categories
-- `web_search_llm`: the search-oriented LLM used for website discovery and fallback classification
+- `web_search_llm`: the search-oriented LLM used for fallback classification from web search
+- `wiki_classification_llm` (from the 2026-09 snapshot on): the LLM used for the Wikipedia fallback classification
+
+From the 2026-09 snapshot on, `metadata` also carries per-source ASN counts.
+The five source counts are disjoint and sum to `total_ases`:
+
+- `total_ases`: number of ASNs with at least one label
+- `ases_from_web_classification`: labelled from their own website
+- `ases_from_sibling_inheritance`: labelled only by inheriting from sibling ASNs
+- `ases_reused_from_prev`: labels carried over unchanged from the previous
+  snapshot because the ASN's RIR-whois identity was byte-identical (see the
+  `Reuse from ...` source value below)
+- `ases_from_wikipedia`: labelled from Wikipedia in the fallback stage
+- `ases_from_fallback_web_search`: labelled from AI web search in the fallback stage
 
 Example:
 
@@ -100,6 +113,12 @@ Each business label includes its provenance. Source values are:
 
 - `Direct - Fallback Web Search AI`  
   Assigned from AI-based web search and classification in the fallback stage.
+
+- `Reuse from {YYYY-MM}` (from the 2026-09 snapshot on)  
+  The label was carried over unchanged from the named previous snapshot because
+  the ASN's RIR-whois identity (`as-name`, `org`, `descr`) was byte-identical
+  between the two snapshots, so it was not re-classified. Applies only to ASNs
+  that would otherwise fall to the Wikipedia / web-search fallback.
 
 ## Taxonomy
 
