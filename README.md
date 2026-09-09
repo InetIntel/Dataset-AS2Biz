@@ -249,13 +249,16 @@ https://doi.org/10.5281/zenodo.19646990
 If you find the methodology or framework described in our paper useful, please also cite:
 
 ```bibtex
-@inproceedings{AS2Biz_paper_placeholder,
-  title        = {PAPER_TITLE_PLACEHOLDER},
-  author       = {AUTHOR_LIST_PLACEHOLDER},
-  booktitle    = {VENUE_PLACEHOLDER},
-  year         = {YEAR_PLACEHOLDER},
-  pages        = {PAGES_PLACEHOLDER},
-  organization = {PUBLISHER_PLACEHOLDER}
+@inproceedings{chen2026as2biz,
+  title     = {{AS2Biz: Leveraging Web Presence and AI to Improve AS Business Classification}},
+  author    = {Chen, Zhiyi and Bischof, Zachary and Testart, Cecilia and Dainotti, Alberto},
+  booktitle = {Proceedings of the 2026 ACM Internet Measurement Conference (IMC '26)},
+  year      = {2026},
+  address   = {Karlsruhe, Germany},
+  publisher = {ACM},
+  isbn      = {979-8-4007-2327-8/2026/10},
+  doi       = {10.1145/3777912.3809155},
+  url       = {https://doi.org/10.1145/3777912.3809155},
 }
 ```
 
