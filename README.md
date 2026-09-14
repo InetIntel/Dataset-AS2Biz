@@ -2,7 +2,6 @@
 
 AS2Biz is an Autonomous System (AS) business classification dataset. It classifies ASes by the business sectors of their operating organizations using web presence, primarily through the organization’s official website and sibling-AS-based augmentation, while supplementing missing cases with fallback methods such as Wikipedia-based classification and AI-based organization classification derived directly from web search.
 
-<!-- Replace with final Zenodo badge and concept DOI once released. -->
 [![DOI](https://zenodo.org/badge/563047649.svg)](https://doi.org/10.5281/zenodo.19646990)
 
 Please open an issue to report any inaccuracies in the dataset (include ASN, month, and evidence)!
@@ -11,9 +10,8 @@ Please open an issue to report any inaccuracies in the dataset (include ASN, mon
 
 The methodology behind this dataset is described in:
 
-<!-- Replace with final paper information once available. -->
-- *PAPER_TITLE_PLACEHOLDER*  
-- Paper link: PAPER_LINK_PLACEHOLDER
+- Z. Chen, Z. Bischof, C. Testart, A. Dainotti, "AS2Biz: Leveraging Web Presence and AI to Improve AS Business Classification," *Proceedings of the 2026 ACM Internet Measurement Conference (IMC '26)*, 2026.
+- Paper link: https://doi.org/10.1145/3777912.3809155
 
 ## Quick start
 
@@ -227,8 +225,23 @@ taxonomy = [
 
 ## Citation
 
-If you use this dataset, please cite the Zenodo **concept DOI** (all versions):
-https://doi.org/10.5281/zenodo.19646990
+If you use this dataset, please cite the paper describing our methodology:
+
+```bibtex
+@inproceedings{chen2026as2biz,
+  title     = {{AS2Biz: Leveraging Web Presence and AI to Improve AS Business Classification}},
+  author    = {Chen, Zhiyi and Bischof, Zachary and Testart, Cecilia and Dainotti, Alberto},
+  booktitle = {Proceedings of the 2026 ACM Internet Measurement Conference (IMC '26)},
+  year      = {2026},
+  address   = {Karlsruhe, Germany},
+  publisher = {ACM},
+  isbn      = {979-8-4007-2327-8/2026/10},
+  doi       = {10.1145/3777912.3809155},
+  url       = {https://doi.org/10.1145/3777912.3809155},
+}
+```
+
+And the Zenodo **concept DOI** for the dataset (all versions): https://doi.org/10.5281/zenodo.19646990
 
 ```bibtex
 @software{chen_as2biz_concept,
@@ -243,22 +256,6 @@ https://doi.org/10.5281/zenodo.19646990
   version      = {2026-03},
   doi          = {10.5281/zenodo.19646990},
   url          = {https://doi.org/10.5281/zenodo.19646990},
-}
-```
-
-If you find the methodology or framework described in our paper useful, please also cite:
-
-```bibtex
-@inproceedings{chen2026as2biz,
-  title     = {{AS2Biz: Leveraging Web Presence and AI to Improve AS Business Classification}},
-  author    = {Chen, Zhiyi and Bischof, Zachary and Testart, Cecilia and Dainotti, Alberto},
-  booktitle = {Proceedings of the 2026 ACM Internet Measurement Conference (IMC '26)},
-  year      = {2026},
-  address   = {Karlsruhe, Germany},
-  publisher = {ACM},
-  isbn      = {979-8-4007-2327-8/2026/10},
-  doi       = {10.1145/3777912.3809155},
-  url       = {https://doi.org/10.1145/3777912.3809155},
 }
 ```
 

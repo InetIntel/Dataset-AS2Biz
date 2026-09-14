@@ -18,12 +18,25 @@ Georgia Tech has the authority and reserves the right, in its sole discretion,
 to discontinue further access and use to anyone who violates this AUA.
 
 If You create a publication (including web pages, papers published by a third
-party, and publicly available presentations) using data from this dataset, You
-must cite the data as follows:
+party, and publicly available presentations) using the AS2Biz methodology or
+data from this dataset, You must cite both the associated paper and the
+AS2Biz dataset as follows:
 
-    Z. Chen, Z. Bischof, C. Testart, A. Dainotti, "AS2Biz",
-    Internet Intelligence Lab at Georgia Tech, [dates used],
-    https://github.com/InetIntel/Dataset-AS2Biz 
+Associated paper:
+
+    Z. Chen, Z. Bischof, C. Testart, A. Dainotti,
+    "AS2Biz: Leveraging Web Presence and AI to Improve AS Business Classification,"
+    Proceedings of the 2026 ACM Internet Measurement Conference (IMC '26), 2026.
+    https://doi.org/10.1145/3777912.3809155
+
+AS2Biz dataset:
+
+    Z. Chen, Z. Bischof, C. Testart, A. Dainotti,
+    "AS to Business Type Mapping (AS2Biz)",
+    Internet Intelligence Lab at Georgia Tech,
+    [version or dates used],
+    https://doi.org/10.5281/zenodo.19646990,
+    https://github.com/InetIntel/Dataset-AS2Biz
 
 You are also required to report your publication to the Internet Intelligence
 Lab (inetintel@cc.gatech.edu) with a copy of (or a link to) the publication. We
