@@ -2,7 +2,7 @@
 
 AS2Biz is an Autonomous System (AS) business classification dataset. It classifies ASes by the business sectors of their operating organizations using web presence, primarily through the organization’s official website and sibling-AS-based augmentation, while supplementing missing cases with fallback methods such as Wikipedia-based classification and AI-based organization classification derived directly from web search.
 
-[![DOI](https://zenodo.org/badge/563047649.svg)](https://doi.org/10.5281/zenodo.19646990)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19646990.svg)](https://doi.org/10.5281/zenodo.19646990)
 
 Please open an issue to report any inaccuracies in the dataset (include ASN, month, and evidence)!
 
